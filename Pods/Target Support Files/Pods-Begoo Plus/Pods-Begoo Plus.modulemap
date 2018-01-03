@@ -1,0 +1,6 @@
+framework module Pods_Begoo_Plus {
+  umbrella header "Pods-Begoo Plus-umbrella.h"
+
+  export *
+  module * { export * }
+}

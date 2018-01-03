@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Gifu (2.0.0)
+  - SQLite.swift (0.11.3):
+    - SQLite.swift/standard (= 0.11.3)
+  - SQLite.swift/standard (0.11.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0.1)
+  - Gifu
+  - SQLite.swift (~> 0.11.3)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Gifu: 56a4d8f1092399159fa32662aa2232158b48d8ac
+  SQLite.swift: 99b36c22084427f0abbeb957556ce1528cf10bb3
+
+PODFILE CHECKSUM: 7d84534971ceaa15e9928c273f7e2ba6bd549f57
+
+COCOAPODS: 1.2.1

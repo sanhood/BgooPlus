@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BKoodakBd.ttf">
+            <string>BKoodakBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="38" id="KGk-i7-Jjw" customClass="ResultCell" customModule="Begoo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="38"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="37.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jtb-hL-eZq">
+                        <rect key="frame" x="235" y="1" width="140" height="35.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="140" id="f5f-dw-AFD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="BKoodakBold" family="B Koodak" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="43H-Ul-Cil">
+                        <rect key="frame" x="0.0" y="1" width="233" height="35.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5AG-I4-ImH">
+                                <rect key="frame" x="0.0" y="0.0" width="57" height="35.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="BKoodakBold" family="B Koodak" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SoV-mh-9gi">
+                                <rect key="frame" x="59" y="0.0" width="56.5" height="35.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="BKoodakBold" family="B Koodak" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6i-Pk-6cq">
+                                <rect key="frame" x="117.5" y="0.0" width="57" height="35.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="BKoodakBold" family="B Koodak" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NmI-Kh-hhR">
+                                <rect key="frame" x="176.5" y="0.0" width="56.5" height="35.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="BKoodakBold" family="B Koodak" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="Jtb-hL-eZq" firstAttribute="leading" secondItem="43H-Ul-Cil" secondAttribute="trailing" constant="2" id="D3S-lt-NgR"/>
+                    <constraint firstAttribute="trailing" secondItem="Jtb-hL-eZq" secondAttribute="trailing" id="EEz-Gt-7hw"/>
+                    <constraint firstItem="Jtb-hL-eZq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="PR3-G0-h0x"/>
+                    <constraint firstAttribute="bottom" secondItem="43H-Ul-Cil" secondAttribute="bottom" constant="1" id="QeE-8r-vgK"/>
+                    <constraint firstAttribute="bottom" secondItem="Jtb-hL-eZq" secondAttribute="bottom" constant="1" id="TbQ-cW-MxT"/>
+                    <constraint firstItem="43H-Ul-Cil" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="Uw3-Rz-3Up"/>
+                    <constraint firstItem="43H-Ul-Cil" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="p7I-28-fbI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="Correct" destination="c6i-Pk-6cq" id="Hv2-3G-BJ9"/>
+                <outlet property="Count" destination="NmI-Kh-hhR" id="C8S-Eh-xU1"/>
+                <outlet property="Date" destination="Jtb-hL-eZq" id="apH-aB-SjB"/>
+                <outlet property="Percentage" destination="5AG-I4-ImH" id="rcV-P2-UH2"/>
+                <outlet property="Wrong" destination="SoV-mh-9gi" id="tQr-gl-2HN"/>
+            </connections>
+            <point key="canvasLocation" x="-57" y="52"/>
+        </tableViewCell>
+    </objects>
+</document>
